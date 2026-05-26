@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="flowchart persegi panjang"/>
+        <attribute name="authors" value="HP"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-09-23 11:51:54 AM"/>
+        <attribute name="created" value="SFA7REVTS1RPUC1RRUxJTDJFOzIwMjUtMDktMjM7MTE6MzY6NDAgQU07MjQ5Ng=="/>
+        <attribute name="edited" value="SFA7REVTS1RPUC1RRUxJTDJFOzIwMjUtMDktMjM7MTE6NTE6NTQgQU07MjsyNjA3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="Panjang"/>
+            <input variable="Lebar"/>
+            <assign variable="Luas" expression="Panjang * Lebar"/>
+            <output expression="Luas" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
